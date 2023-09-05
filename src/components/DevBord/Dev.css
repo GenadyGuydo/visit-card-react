@@ -1,0 +1,103 @@
+.dev-wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(132, 0, 139);
+}
+
+.dev-header-container{
+width: 100%;
+background: rgba(133, 0, 111, 0.667);
+display: flex;
+justify-content: space-between;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(52, 0, 43, 0.3);
+position: relative;
+overflow: hidden;
+}
+.dev_logo_container{
+ width: 50%;
+}
+.dev-logo{
+  max-width: 24vw;
+  
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  
+  
+}
+
+.logo{
+  font-size: 4vw;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.dev-container{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tech-title{
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.tech-list div{
+  display: inline-block;
+  color: #ffffff;
+  background-color: #363636;
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin: 4px 4px 4px 4px;
+}
+
+
+.create_user{
+width: 170px;
+height: 80%;
+
+right: 10px;
+position: relative;
+background: rgba(86, 16, 83, 0.803);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(147, 5, 123, 0.3);
+font-size: 1vw;
+color: #ffffff;
+}
+.dev_button_crate_container{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: end;
+  width:50%
+  
+}
+.dev_card__wrap_container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap; 
+}
+
+
+ @media screen and (max-width: 775px) {
+  .create_user{
+    font-size: 2vw
+  }
+  .dev-logo{
+    max-width: 30vw;
+    text-align: center;
+  }
+
+
+}

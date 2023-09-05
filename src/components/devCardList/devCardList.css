@@ -1,0 +1,12 @@
+.some_wrap {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+.dev_card_some_wrapper {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}

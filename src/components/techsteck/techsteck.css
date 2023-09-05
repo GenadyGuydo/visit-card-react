@@ -1,0 +1,14 @@
+.tech-title{
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.tech-list div{
+  display: inline-block;
+  color: #ffffff;
+  background-color: #363636;
+  padding: 5px 10px;
+  font-size: 1rem;
+  margin: 4px 4px 4px 4px;
+}
+

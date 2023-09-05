@@ -1,0 +1,29 @@
+.myModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.myModalContent{
+padding: 25px;
+background: rgba(43, 7, 38, 0.95);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(43, 7, 38, 0.3);
+min-width: 350px;
+
+}
+
+
+.myModal.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

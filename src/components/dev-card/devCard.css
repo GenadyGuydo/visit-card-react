@@ -1,0 +1,132 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dev-card-wrapper {
+  display: flex;
+  height: 300px;
+  width: 300px;
+
+  background-color: rgb(132, 0, 139);
+}
+
+.box-card-container {
+  position: relative;
+  flex-direction: column;
+
+  width: 300px;
+  height: 300px;
+
+  background: rgba(86, 16, 83, 0.803);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(147, 5, 123, 0.3);
+
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.box-card-container img {
+  max-width: 35%;
+
+  border-radius: 50px;
+}
+
+.dev-description-container {
+  text-align: center;
+}
+
+.dev-name {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.inside-container-title {
+  padding-top: 10px;
+}
+.dev-skils {
+  font-size: 1.7rem;
+  color: #a0a0a0;
+}
+
+.arrow-container,
+.cancel {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #ffff;
+  width: 40px;
+  height: 40px;
+  color: #444444;
+  border-radius: 20px 0px 17px 0px;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.arrow-container > .fas {
+  transform: rotate(45deg);
+}
+
+.inside-container {
+  position: absolute;
+  background-color: #270b24;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 17px;
+  padding: 40px 20px 0px 20px;
+  transition: all 0.4s;
+}
+
+.off {
+  transform: translate(-80%, -80%) rotate(90deg);
+}
+
+.active {
+  transform: translate(0) rotate(0);
+}
+
+.inside-container p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+.hard-skils {
+  padding-top: 10px;
+}
+.inside-container .hard-skils div {
+  display: inline-block;
+  color: #8b8b8b;
+  border: 1px solid #8b8b8b;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin: 4px 4px 4px 4px;
+}
+
+.inside-container .hard-skils p {
+  display: inline-block;
+  color: #8b8b8b;
+  border: 1px solid #8b8b8b;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin: 4px 4px 4px 4px;
+}
+
+.inside-container .icons-social {
+  font-size: 1.6rem;
+  margin-top: 15px;
+}
+
+.inside-container .icons-social > .fab {
+  color: #ffff;
+  margin-right: 10px;
+  transition: all 0.4s;
+}
+
+.inside-container .icons-social > .fab:hover {
+  color: #9a9a9a;
+}
